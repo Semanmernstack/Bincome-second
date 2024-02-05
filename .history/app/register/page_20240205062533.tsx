@@ -57,9 +57,9 @@ export default function page() {
     <form onSubmit={onSubmit} className='text-center'>
       <h1 className='flex text-center justify-center text-lg md:text-xl ld:text-xl text-red-150'>Welcome to Bincom Emergency Center</h1>
         <div className='flex flex-col justify-center h-[450px] w-[350px] mx-auto gap-2'>
-        <input placeholder='Name' id='namee'  type='text' name='namee' onChange={handleChange} value={state?.namee}/>
-        <input placeholder='Email' id='email' type='email' name='email' onChange={handleChange} value={state?.email}/>
-        <input placeholder='Password' id='password'  type='password' name='password' onChange={handleChange} value={state?.password}/>
+        <input placeholder='Name' id='namee'  type='text' name='namee' onChange={handleChange} value={state.namee}/>
+        <input placeholder='Email' id='email' type='email' name='email' onChange={handleChange} value={state.email}/>
+        <input placeholder='Password' id='password'  type='password' name='password' onChange={handleChange} value={state.password}/>
       
         <button type='submit'>Submit</button>
         </div>
