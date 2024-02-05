@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import getCurrentUser from "@/getActions/getCurrentUser";
+import getCurrentUser from "@/app/getActions/getCurrentUser";
 import prisma from '../../../../prisma/prismadb'
 
 

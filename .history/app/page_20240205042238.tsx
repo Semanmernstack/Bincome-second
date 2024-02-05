@@ -3,7 +3,7 @@ import getCurrentUser from "../getActions/getCurrentUser";
 
 import Newss from "./components/Newss";
 import { Blog, User } from "@prisma/client";
-import getSituation from "../getActions/getSuitation";
+import getSituation from "./getActions/getSuitation";
 
 
 export default  async function Home() {
