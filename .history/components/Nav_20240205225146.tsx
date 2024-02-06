@@ -24,8 +24,7 @@ function Nav({currentUser}: any) {
               {currentUser ? <button onClick={() => signOut()}>Sign out</button> : <Link href='/register'>Register</Link>}
             </div>
               <div className='flex text-center justify-center' >
-                <h2>{currentUser?.email}</h2>
-                
+                <h2>{currentUser?.name}</h2>
               </div>
             </div>
             
